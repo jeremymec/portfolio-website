@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26a9631c-5784-47e8-9ed6-a76ab2cedb2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/hangman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/pong copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/pong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/flat.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/p-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/overrides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/overrides.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/custom-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/custom-scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,6 +70,7 @@
       <workItem from="1567417252028" duration="1499000" />
       <workItem from="1567418782604" duration="6242000" />
       <workItem from="1567490692582" duration="4643000" />
+      <workItem from="1567503362315" duration="7668000" />
     </task>
     <servers />
   </component>
@@ -82,7 +82,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

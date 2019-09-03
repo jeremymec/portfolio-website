@@ -1,3 +1,18 @@
+
+function lightbox_open() {
+    var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+    document.getElementById('light').style.display = 'block';
+    document.getElementById('fade').style.display = 'block';
+    lightBoxVideo.play();
+}
+
+function lightbox_close() {
+    var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+    document.getElementById('light').style.display = 'none';
+    document.getElementById('fade').style.display = 'none';
+    lightBoxVideo.pause();
+}
+
 (function($) {
   "use strict";
   
@@ -187,44 +202,14 @@
           }
         }
     });     
-    
-    /*
-    |=================
-    | Single Project review
-    |================
-    */   
-    $('#single-project').owlCarousel({
-        loop: false,
-        responsiveClass: true,
-        nav: false,
-        dots: true,
-        autoplay: false,
-        smartSpeed: 450,
-        stopOnHover : true,
-        animateIn: 'slideInRight',
-        animateOut: 'slideOutLeft',
-        autoplayHoverPause: true,
-        pagination: false,
-        responsive: {
-          0: {
-            items: 1,
-          },
-          768: {
-            items: 1,
-          },
-          1170: {
-            items: 1,
-          }
-        }
-    });    
-    
+
     /*
     |=================
     | Project review slide
     |================
     */   
     $('.mh-single-project-slide-by-side').owlCarousel({
-        loop: false,
+        loop: true,
         responsiveClass: true,
         nav: true,
         navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
@@ -232,8 +217,6 @@
         autoplay: false,
         smartSpeed: 450,
         stopOnHover : true,
-        animateIn: 'slideInRight',
-        animateOut: 'slideOutLeft',
         autoplayHoverPause: true,
         pagination: false,
         responsive: {
